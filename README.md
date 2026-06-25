@@ -1,10 +1,10 @@
 # Aully Fit Web
 
-Next.js site for public Aully Fit policy URLs.
+Next.js site for the public Aully Fit landing page and policy URLs.
 
 ## Routes
 
-- `/` - Aully Fit policy landing page
+- `/` - Aully Fit marketing landing page
 - `/privacy` - Privacy Policy in English and Korean
 - `/terms` - Terms of Service in English and Korean
 

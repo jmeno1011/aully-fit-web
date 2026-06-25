@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     template: "%s | Aully Fit",
   },
   description:
-    "Aully Fit privacy policy, terms of service, and fit preview service information.",
+    "Aully Fit helps users preview upper-body outfits from a photo and compare the result with a live camera overlay.",
   alternates: {
     canonical: "/",
   },
