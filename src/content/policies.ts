@@ -20,7 +20,7 @@ export type PolicyContent = {
 };
 
 const shared = {
-  lastUpdated: "2026-06-20",
+  lastUpdated: "2026-06-29",
   operator: "Aully Fit",
   markets: "United Kingdom and South Korea",
   contact: "whltn8282@gmail.com",
@@ -57,6 +57,16 @@ export const privacyPolicy: PolicyContent = {
             "Photos are used only to generate your fit preview and related result files.",
             "Photos are not used for model training.",
             "Photos are not sold or shared with third parties for advertising.",
+          ],
+        },
+        {
+          title: "Face Data",
+          body: [
+            "Uploaded photos may include a user's face. Aully Fit does not collect face data for face recognition, identity verification, biometric identification, emotion analysis, or user profiling.",
+            "The image processing model may temporarily detect whether a face-like/person-context region exists in the uploaded photo only to determine whether the photo is suitable for generating an upper-clothing fit preview.",
+            "Aully Fit does not create, store, or retain face templates, faceprints, facial landmarks, biometric identifiers, or any separate face database.",
+            "Face-related processing occurs on the Aully Fit server as part of processing the uploaded photo. Face data is not sold, used for advertising, used for tracking, or shared with third parties.",
+            "Uploaded original photos and generated result files, including any visible face that may appear in those images, are permanently deleted within 24 hours unless the user submits a feedback report. Feedback reports keep the generated preview image and report details for product-quality review; original photos are not copied into feedback storage.",
           ],
         },
         {
@@ -116,6 +126,16 @@ export const privacyPolicy: PolicyContent = {
             "사진은 핏 프리뷰와 관련 결과 파일을 생성하기 위한 목적으로만 사용됩니다.",
             "사진은 모델 학습에 사용되지 않습니다.",
             "사진은 광고 목적의 제3자 판매 또는 공유에 사용되지 않습니다.",
+          ],
+        },
+        {
+          title: "얼굴 데이터",
+          body: [
+            "업로드된 사진에는 사용자의 얼굴이 포함될 수 있습니다. Aully Fit은 얼굴 인식, 신원 확인, 생체 식별, 감정 분석 또는 사용자 프로파일링 목적으로 얼굴 데이터를 수집하지 않습니다.",
+            "이미지 처리 모델은 상의 핏 프리뷰 생성에 적합한 사진인지 판단하기 위해 업로드된 사진에 얼굴 또는 사람 맥락으로 보이는 영역이 있는지 임시로 확인할 수 있습니다.",
+            "Aully Fit은 얼굴 템플릿, faceprint, 얼굴 랜드마크, 생체 식별자 또는 별도의 얼굴 데이터베이스를 생성, 저장 또는 보관하지 않습니다.",
+            "얼굴 관련 처리는 업로드된 사진 처리 과정의 일부로 Aully Fit 서버에서 이루어집니다. 얼굴 데이터는 판매, 광고, 추적 또는 제3자 공유에 사용되지 않습니다.",
+            "업로드된 원본 사진과 생성된 결과 파일에 얼굴이 보이는 경우에도 해당 파일은 24시간 이내 영구 삭제됩니다. 사용자가 피드백 리포트를 제출하는 경우 생성된 프리뷰 이미지와 리포트 내용은 제품 품질 확인을 위해 보관될 수 있으나, 원본 사진은 피드백 보관용으로 복사하지 않습니다.",
           ],
         },
         {
